@@ -1,21 +1,24 @@
 body {
     font-family: 'Cairo', sans-serif;
-    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
     height: 100vh;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     direction: rtl;
+    overflow: hidden;
   }
   
   .container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     text-align: center;
     animation: fadeIn 1.5s ease-in-out;
+    z-index: 2;
+    position: relative;
   }
   
   h1 {
@@ -34,7 +37,7 @@ body {
   }
   
   button {
-    background-color: #4e54c8;
+    background-color: #ff5e62;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -45,10 +48,19 @@ body {
   }
   
   button:hover {
-    background-color: #565dff;
+    background-color: #ff3d4f;
   }
   
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
   }
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
