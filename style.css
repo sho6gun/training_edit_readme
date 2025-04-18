@@ -1,6 +1,6 @@
 body {
     font-family: 'Cairo', sans-serif;
-    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    background: linear-gradient(to right, #62eed2, #00b3ff);
     height: 100vh;
     margin: 0;
     display: flex;
@@ -11,7 +11,7 @@ body {
   }
   
   .container {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(226, 22, 22, 0.95);
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -37,8 +37,8 @@ body {
   }
   
   button {
-    background-color: #ff5e62;
-    color: white;
+    background-color: #d4ff00;
+    color: rgb(0, 255, 208);
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -48,7 +48,7 @@ body {
   }
   
   button:hover {
-    background-color: #ff3d4f;
+    background-color: #20deff;
   }
   
   @keyframes fadeIn {
