@@ -11,7 +11,7 @@ body {
   }
   
   .container {
-    background-color: rgba(204, 255, 0, 0.95);
+    background-color: rgba(226, 22, 22, 0.95);
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -37,8 +37,8 @@ body {
   }
   
   button {
-    background-color: #ff0400;
-    color: rgb(17, 0, 255);
+    background-color: #d4ff00;
+    color: rgb(0, 255, 208);
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -48,7 +48,7 @@ body {
   }
   
   button:hover {
-    background-color: #ff3d4f;
+    background-color: #20deff;
   }
   
   @keyframes fadeIn {
